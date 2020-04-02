@@ -1,0 +1,9 @@
+# HTML & CSS
+## Chapter15: _Layout_
+While inline (static-positioned) elements such as `<img>`, `<b>`, and `<i>` flow in between surrounding text, `<h1>`, `<p>`, `<ul>`, and `<li>` elements are block-level and start on a new line.  `<div>` elements are frequently employed as containers to gather sections together on a page.  Nesting begets parent and child block-level elements.<br><br>
+Browsers default to displaying pages in normal flow, but CSS offers layout controls which manipulate relative, absolute, fixed, overlapping, and floating positioning scheme properties.<br><br>
+The float property affords designers the ability to move elements in normal flow to the left or right edges of pages and can be used to create multi-column layouts.  Floated items require a definined width, and anything seated inside the containing element will flow around the floated element.<br><br>
+Designers target their pages to a width of within 960-1000 pixels, and strive to identify the focus of their content within the top 600 pixels.<br><br>
+Fixed-width layout designs afford designers heightened control over the position and appearance of items on the page, but higher-resolution displays can make text more difficult to read.  Liquid layouts, on the other hand, dynamically adjust the real estate of the screen on which content is being viewed, although more extreme aspect ratios can yield text-flow and legibility difficulties.<br><br>
+Grids and CSS Frameworks can promote professional and consistent designs and work under agreed-upon rules of deployment.<br><br>
+Style sheets are modular, allowing for multiple sheets to be included on single pages.
