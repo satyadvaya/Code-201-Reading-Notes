@@ -7,6 +7,6 @@
 - The storage event is supported everywhere the `localStorage` object is supported.
     - You'll need to check which event mechanism the browser supports in order to hook the storage event.
 - The storage event cannot be canceled.
-    - It's not possible to a change event from occurring from within the `handle_storage` callback function.
+    - It's not possible to stop a change event from occurring from within the `handle_storage` callback function.
 - Each origin gets 5MB of storage space by default.
     - Remember that you're storing strings rather than data in its original format.  _If you are storing something other than a string, you'll need to coerce it yourself when you retrieve it._
