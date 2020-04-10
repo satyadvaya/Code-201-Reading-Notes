@@ -1,0 +1,32 @@
+# HTML & CSS
+## Chapter10: _Error Handling & Debugging_
+- **Order of exectution** is the order in which statements are processed.
+- The JavaScript interpreter processes one line of code at a time, and stacks new functions on top of the current task when a statement requires data from another function in order to proceed.
+- Comprehending the two stages of execution contexts, will improve the detection of coding errors.
+    - **Prepare**
+        - New scope is created;
+        - Variables, functions, and arguments are created;
+        - Value of the `this` keyword is determined.
+    - **Execute**
+        - Values assigned to variables;
+        - Functions are referenced and their code run;
+        - Statements are executed.
+- JavaScript statements throw and **exception** when they generate an error.
+- JavaScript has **7 different error types**, each creating its own error object, and revealing a line number for, and desription of, each error.
+    - **`Error`**
+        - Generic error - the other erros are all based upon this error
+    - **`SyntaxError`**
+        - Syntax has not been followed
+    - **`ReferenceError`**
+        - Tried to reference a variable that is not declared or within scope
+    - **`TypeError`**
+        - An unexpected data type that cannot be coerced
+    - **`RangeError`**
+        - Numbers not in acceptable range
+    - **`URIError`**
+        - `encodeURI()`, `decodeURI()`, and similar methods used incorrectly
+    - **`EvalError`**
+        - `eval()` function used incorrectly
+- Debugging utilizes the process of decuction.
+- Utilizing the console helps to target the area in which an error is located.
+- Employing `try`, `catch`, and `release` statements can provide users helpful feedback.
